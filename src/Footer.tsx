@@ -1,18 +1,15 @@
 import React from 'react';
-import ig from './instagram-light.png';
-import gh from './github-light.png';
 
-class Footer extends React.Component {
-  render() {
+function Footer() {
     return (
         <div className="footer">
             <div className="contents">
                 <div>
                     <a href="https://www.instagram.com/9th.tokyo/">
-                        <img className="sns" src={ig} width="12" height="12" />
+                        <img className="sns" src="images/instagram-light.png" width="12" height="12" />
                     </a>
                     <a href="https://github.com/keix-luna">
-                        <img className="sns" src={gh} width="12" height="12" />
+                        <img className="sns" src="images/github-light.png" width="12" height="12" />
                     </a>
                 </div>
                 <div>Application Version fa8a794</div>
@@ -22,6 +19,5 @@ class Footer extends React.Component {
         </div>
     );
   }
-}
 
 export default Footer;

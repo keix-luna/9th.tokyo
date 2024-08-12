@@ -1,18 +1,7 @@
 import React from 'react';
 // import parse from 'html-react-parser';
 
-interface Content { section: string; body: string; }
-interface Props {content: Content[]}
-
-class Blog extends React.Component<Props> {
-
-/*
-    constructor(props: Props) {
-        super(props)
-    }
-*/
-
-    render() {
+function Blog() {
         return (
 
             <div className="right">
@@ -35,6 +24,5 @@ Wikipedia has been censored by some national governments, ranging from specific 
 
         );
     }
-}
 
 export default Blog;

@@ -7,6 +7,7 @@
     --main-bg: #ffffff;
     --main-text: #7f7f7f;
     --emphasis-text: #000000;
+/*   --emphasis-text: #FF1493; */
     --border-color: #0f0f0f;
 
 }
@@ -16,6 +17,7 @@
     --main-bg: #000000;
     --main-text: #7f7f7f;
     --emphasis-text: #ffffff;
+/*    --emphasis-text: #FF1493; */
     --border-color: #171717;
 
 }
@@ -93,6 +95,7 @@ h1, h2, h3, h4 {
 
     width: 1280px;
     text-align: center;
+    margin-bottom: 30px;
 
 }
 
@@ -148,6 +151,8 @@ h1, h2, h3, h4 {
 
     width: 920px;
     float: right;
+
+    padding-bottom: 60px;
 
 }
 
@@ -207,3 +212,6 @@ h1, h2, h3, h4 {
 
 }
 
+.text {
+    margin-bottom: 15px;
+}

@@ -1,18 +1,8 @@
 import React from 'react';
 import parse from 'html-react-parser';
 
-interface Content { section: string; body: string; }
-interface Props {content: Content[]}
+function About() {
 
-class About extends React.Component<Props> {
-
-/*
-    constructor(props: Props) {
-        super(props)
-    }
-*/
-
-    render() {
         return (
 
             <div className="right">
@@ -50,19 +40,9 @@ class About extends React.Component<Props> {
                 </table>
                 </div>
 
-                { this.props.content.map((content, index) => {
-                    return (
-                        <div className="contents" key={index}>
-                            <h2>{content.section}</h2>
-                            <div>{parse(content.body)}</div>
-                        </div>
-                        );
-                    })
-                }
             </div>
 
         );
     }
-}
 
 export default About;

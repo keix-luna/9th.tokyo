@@ -1,8 +1,6 @@
 import React from 'react';
 
-class Page404 extends React.Component {
-    
-    render() {
+function Page404 () {
         return (
 
             <div className="right">
@@ -17,6 +15,5 @@ class Page404 extends React.Component {
 
         );
     }
-}
 
 export default Page404;

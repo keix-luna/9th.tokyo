@@ -2,14 +2,14 @@ import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import axios from "axios";
 
-import Header    from './Header';
-import MainTitle from './MainTitle';
-import About     from './About';
-import Photos    from './Photos';
-import Blog      from './Blog';
-import Contact   from './Contact';
-import Footer    from './Footer';
-import Page404   from './Page404';
+import MainTitle    from './MainTitle';
+import Header       from './Header';
+import About        from './About';
+import MainContents from './MainContents';
+import Blog         from './Blog';
+import Contact      from './Contact';
+import Footer       from './Footer';
+import Page404      from './Page404';
 
 import './App.css';
 
@@ -37,9 +37,9 @@ function App() {
             <MainTitle />
             <Router>
                 <Routes>
-                    <Route path="/" element={<Photos content={content} />} />
-                    <Route path="/about" element={<About content={content} />} />
-                    <Route path="/blog" element={<Blog content={content} />} />
+                    <Route path="/" element={<MainContents />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/blog" element={<Blog />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="*" element={<Page404 />} />
                 </Routes>

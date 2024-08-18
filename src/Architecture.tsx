@@ -30,10 +30,15 @@ y's architecture diagram is as follows:
                     <a href="https://github.com/keix-luna/9th.tokyo">#9th.tokyo</a>
                 </h2>
                 <div className="text">
-e API client for the Seven-Swords project renders JSON data in HTML, providing an intuitive interface for users. The name draws inspiration from the 3rd New Tokyo City in Evangelion, reflecting the project's focus on advanced technology.
+The API client for the Seven-Swords project renders JSON data in HTML, providing users with an intuitive interface. The name draws inspiration from the 3rd New Tokyo City in Evangelion, reflecting the project's focus on advanced technology.
                 </div>
+
                 <div className="text">
-itially, it was a simple React-based client. Over time, the architecture expanded to include AWS Lambda functions, integrating with services like Milvus and Gemini. These additions enabled complex tasks like vector retrieval and similarity search.
+It was a simple React-based client. Over time, the architecture expanded to include AWS Lambda functions, integrating with services like Milvus and Gemini. These additions enabled complex tasks such as vector retrieval and similarity searches.
+                </div>
+
+                <div className="text">
+                If you are reading this message, you might be seeing the UI of this application. Welcome to 9th.tokyo, and thank you.
                 </div>
             </div>
 
@@ -42,13 +47,15 @@ itially, it was a simple React-based client. Over time, the architecture expande
                     <a href="https://github.com/keix-luna/seven-swords">#Seven-Swords</a>
                 </h2>
                 <div className="text">
-ven-Swords operates as a FastAPI application, reverse-proxied by NGINX for secure and efficient HTTP handling. The FastAPI backend queries Milvus for vectors, delivering fast and relevant results.
+Seven-Swords operates as a FastAPI application, reverse-proxied by NGINX to ensure secure and efficient HTTP handling. The FastAPI backend queries Milvus for vectors, delivering fast and relevant results.
                 </div>
+
                 <div className="text">
-e infrastructure is robust, with the FastAPI app running in a Docker container on an EC2 instance within a private subnet. External access is managed by an ALB, while internal resources use a NAT gateway for outbound connections.
+The infrastructure is robust, with the FastAPI app running in a AWS ECS within a private subnet. External access is managed by an Application Load Balancer (ALB), while internal resources use a NAT gateway for outbound connections.
                 </div>
+
                 <div className="text">
-erall, Seven-Swords leverages Docker, FastAPI, Milvus, and AWS Lambda to provide a scalable and secure solution, capable of handling complex data processing tasks while allowing for future growth.
+Overall, Seven-Swords leverages Docker, FastAPI, Milvus, and AWS Lambda to provide a scalable and secure solution, capable of handling complex data processing tasks while allowing for future growth.
                 </div>
             </div>
 
@@ -57,7 +64,7 @@ erall, Seven-Swords leverages Docker, FastAPI, Milvus, and AWS Lambda to provide
                     <a href="https://github.com/keix-luna/akatsuki">#Akatsuki</a>
                 </h2>
                 <div>
-                This is the source code for the infrastructure built using AWS CDK, which supports the 9th.tokyo and Seven-Swords projects. The name is Akatsuki a.k.a MoonLight. This project includes lambda functions to connect Gamini-1.5-Flash and Milvus.
+                This is the source code for the infrastructure built using AWS CDK, which supports the 9th.tokyo and Seven-Swords projects. The name is Akatsuki a.k.a MoonLight. This project includes lambda functions to connect AI and Milvus.
                 </div>
             </div>
 

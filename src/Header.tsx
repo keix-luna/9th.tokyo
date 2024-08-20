@@ -21,10 +21,10 @@ function Header() {
 return (
     <div className='header'>
         <ul>
-            <li className="menu"><a href="/">Home</a></li>
-            <li className="menu"><a href="/about">About</a></li>
-            <li className="menu"><a href="/blog">Article</a></li>
-            <li className="menu"><a href="/contact">Contact</a></li>
+            <li className="menu"><a href="/">About 9th.tokyo</a></li>
+            <li className="menu"><a href="/architecture">Architecture</a></li>
+            <li className="menu"><a href="/specification">Specification</a></li>
+            <li className="menu"><a href="/article">Articles</a></li>
             <li className="menu">
                 <span>
                     <img className="mode" src="images/white.png" width="16px" height="16px" alt="lang" />

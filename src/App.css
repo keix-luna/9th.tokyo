@@ -212,6 +212,16 @@ h1, h2, h3, h4 {
 
 }
 
+.code {
+    background-color: black;
+    color: white;
+    border: 1px solid #ff22aa;
+}
+
 .text {
     margin-bottom: 15px;
+}
+
+.message {
+    margin: 20px 0px 20px 0px;
 }

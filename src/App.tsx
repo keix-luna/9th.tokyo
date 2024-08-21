@@ -15,6 +15,7 @@ import './App.css';
 
 function App() {
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [content, setContent] = useState([]);
 
     useEffect(() => {

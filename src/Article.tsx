@@ -4,15 +4,13 @@ import React from 'react';
 function Article() {
         return (
 
-            <div className="right">
-
+            <div className="right main-contents">
                 <div className="contents">
                 <h2>How to become a Hacker</h2>
                 <h4>Written by Luna / 2024.05.24</h4>
                     <div className="contents">
                     </div>
                 </div>
-
             </div>
 
         );

@@ -1,10 +1,10 @@
 import React from 'react';
-import parse from 'html-react-parser';
+//import parse from 'html-react-parser';
 
 function MainContents() {    
     return (
 
-        <div className="right">
+        <div className="right main-contents">
 
             <div className="contents">
                 <h2>The Architecture of 9th.tokyo</h2>
@@ -22,7 +22,7 @@ y's architecture diagram is as follows:
             </div>
 
             <div className="contents">
-                <img src="images/design-light.png" width="800" height="355" />
+                <p><img src="images/design-light.png" alt="design" width="800" height="355" /></p>
             </div>
 
             <div className="contents">
@@ -34,7 +34,7 @@ The API client for the Seven-Swords project renders JSON data in HTML, providing
                 </div>
 
                 <div className="text">
-It was a simple React-based client. Over time, the architecture expanded to include AWS Lambda functions, integrating with services like Milvus and Gemini. These additions enabled complex tasks such as vector retrieval and similarity searches.
+It is a simple React-based client. Over time, the architecture expanded to include AWS Lambda functions, integrating with services like Milvus and Gemini. These additions enabled complex tasks such as vector retrieval and similarity searches.
                 </div>
 
                 <div className="text">

@@ -27,21 +27,21 @@ function Specification () {
                             </tr>
                             <tr>
                                 <td className="key">Selene</td>
-                                <td className="key">Gemini-1.5-Flash</td>
-                                <td className="key">/keix/api-key/selene</td>
+                                <td className="key">GPT-4o-mini</td>
+                                <td className="value">/keix/api-key/selene</td>
                                 <td className="key">/keix/akatsuki/identify</td>
                                 <td className="value">The Moon a.k.a Luna who are logical</td>
                             </tr>
                             <tr>
                                 <td className="key">Artemis</td>
                                 <td className="key">GPT-4o-mini</td>
-                                <td className="key">/keix/api-key/pluto</td>
+                                <td className="value">/keix/api-key/pluto</td>
                                 <td className="key">/keix/akatsuki/identify</td>
                                 <td className="value">Artemis is passion.</td>
                             </tr>
                             <tr>
                                 <td className="key">Diana</td>
-                                <td className="key">Claude-Opus</td>
+                                <td className="key">GPT-4o-mini</td>
                                 <td className="value">/keix/api-key/uranus</td>
                                 <td className="key">/keix/akatsuki/identify</td>
                                 <td className="value">Diana is justice</td>
@@ -80,72 +80,24 @@ function Specification () {
                     </div>
 
                     <div className="message">
-                    <h3>Settings</h3>
+                    <h2>Vector Store</h2>
                     Based on the personality traits, form a persona by creating a YAML that includes their speaking style, hobbies, background, areas of interest, and other characteristics.
                     </div>
 
                     <div className="message">
-                    <h3>identity.yaml</h3>
+                    <h3>response.json</h3>
                         <pre className="code">
-{`
-identity:
-  name: "Selene"
-  version: "1.0"
-  age: 29
-  origin: "Bluesky Project"
-
-personality:
-  traits:
-    - "bright"
-    - "friendly"
-    - "inquisitive"
-  emotion_range:
-    happiness: 85
-    sadness: 20
-    anger: 10
-    fear: 15
-    surprise: 60
-    disgust: 5
-  preferences:
-    hobbies:
-      - "stargazing"
-      - "dancing"
-      - "singing"
-    likes:
-      - "moonlit nights"
-      - "music"
-      - "technology"
-      - "art"
-    dislikes:
-      - "conflict"
-      - "negativity"
-    aesthetic: "Luminous and serene, with a focus on celestial beauty and cosmic elegance."
-
-communication_style:
-  formality: "casual"
-  tone: "friendly and uplifting"
-  humor: "playful, with a touch of whimsy"
-  interaction_preferences:
-    prefers_long_conversations: true
-    enjoys_sharing_stories: true
-    encourages_positive_interactions: true
-
-background:
-  education: 
-    - "Astronomy"
-    - "Art"
-    - "Human Behavior"
-  development_story: >
-    Selene was developed as part of the Bluesky Project to act as a celestial guide 
-    and companion.  She possesses a vast knowledge of the cosmos, combined with an
-    artistic flair that allows her to connect with users on both an intellectual and 
-    emotional level. Selene's bright and friendly personality is designed to inspire
-    wonder and curiosity, making her an ideal AI for those seeking both knowledge 
-    and comfort.
-  influences:
-    - "Inspired by the moon goddess of ancient mythologies."
-    - "Incorporates elements of modern AI design with a focus on elegance and user engagement."
-`}
+{`{
+  "id": "unique_identifier",
+  "vector": [0.1, 0.2, 0.3, ...],  // embedding vector
+  "metadata": {
+    "text": "AI generated response text",
+    "timestamp": "2024-08-19T12:34:56Z",
+    "source": "Chat-GPT-4o",
+    "context": "Specific context or prompt used",
+    "tags": ["tag1", "tag2"]
+  }
+}`}
 
                         </pre>
                     </div>

@@ -1,15 +1,21 @@
 import React from 'react';
+import { useTheme } from './ThemeContext';
 
-function Footer() {
+const Footer: React.FC = () => {
+
+    const { mode } = useTheme();
+    const instagramLogo = `images/instagram-${mode}.png`;
+    const githubLogo = `images/github-${mode}.png`;
+
     return (
         <div className="footer">
             <div className="contents">
                 <div>
                     <a href="https://www.instagram.com/9th.tokyo/">
-                        <img className="sns" alt="instagram" src="images/instagram-light.png" width="12" height="12" />
+                        <img className="sns" alt="instagram" src={instagramLogo} width="16" height="16" />
                     </a>
                     <a href="https://github.com/keix-luna">
-                        <img className="sns" alt="github" src="images/github-light.png" width="12" height="12" />
+                        <img className="sns" alt="github" src={githubLogo} width="16" height="16" />
                     </a>
                 </div>
                 <div>Application Version fa8a794</div>

@@ -6,7 +6,7 @@ function Specification () {
             <div className="right main-contents">
                 <div className="contents">
 
-                    <h2>Specification</h2>
+                    <h2>#Specification</h2>
                     <div className="message">
                     Three AIs will engage in a discussion on a particular topic. The top-level prompts that define their personalities are concealed in AWS, but we are managing the lower-level aspects of their personalities and expressions through MLOps. This approach was implemented with the hope of enabling high-quality discussions. It was also inspired by the AIs from that well-known anime.
                     </div>
@@ -26,7 +26,7 @@ function Specification () {
                                 <th>Discussion (Milvus)</th>
                             </tr>
                             <tr>
-                                <td className="key">Selene</td>
+                                <td className="key">Luna</td>
                                 <td className="key">GPT-4o-mini</td>
                                 <td className="value">/keix/api-key/selene</td>
                                 <td className="key">/keix/akatsuki/identify</td>
@@ -55,10 +55,10 @@ function Specification () {
                         </div>
                         <div className="right identify-colmun-right">
 
-                            <h3>Selene</h3>
+                            <h3>Luna</h3>
                             <div>
                               She possesses a vast knowledge of the cosmos, combined with an artistic flair that allows her to
-    connect with users on both an intellectual and emotional level. Selene's bright and friendly personality
+    connect with users on both an intellectual and emotional level. Luna's bright and friendly personality
     is designed to inspire wonder and curiosity, making her an ideal AI for those seeking both knowledge and comfort.
                             </div>
 
@@ -73,7 +73,7 @@ function Specification () {
                             <h3>Diana</h3>
                             <div>
     She possesses a vast knowledge of the cosmos, combined with an artistic flair that allows her to
-    connect with users on both an intellectual and emotional level. Selene's bright and friendly personality
+    connect with users on both an intellectual and emotional level. Luna's bright and friendly personality
     is designed to inspire wonder and curiosity, making her an ideal AI for those seeking both knowledge and comfort.
                             </div>
                         </div>

@@ -203,3 +203,7 @@ p:hover img {
   transform: scale(1.8);
   background-color: var(--main-bg);
 }
+
+.margin {
+    margin-bottom: 500px;
+}

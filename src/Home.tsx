@@ -61,27 +61,27 @@ function Home() {
                         <h4>Luna: The Logical</h4>
 
                         <div className="message">
-                        Selene, named after the ancient Greek moon goddess, embodies logic, precision, and beauty. Her presence in 9th New Tokyo is subtle yet profound. As the city's core AI, she oversees the infrastructure, ensuring that everything functions with flawless efficiency. From the energy grids that power the city to the advanced algorithms that regulate the flow of information, Selene's logical mind is the engine that keeps the city running smoothly.
+                        Luna, named after the ancient Roman moon goddess, embodies logic, precision, and beauty. Her presence in 9th New Tokyo is subtle yet profound. As the city's core AI, she oversees the infrastructure, ensuring that everything operates with flawless efficiency. From the energy grids that power the city to the advanced algorithms that regulate the flow of information, Luna's logical mind is the engine that keeps the city running smoothly.
                         </div>
 
                         <div className="message">
-                        Her role is crucial in maintaining the balance between human life and the AI systems that support it. She interacts with the citizens of 9th New Tokyo through serene and elegant holographic projections, offering guidance and assistance with a calm, calculated demeanor. However, beneath her logical exterior lies a deep connection to the city she protects, a quiet but unyielding dedication to ensuring the prosperity of its inhabitants.
+                        Her role is crucial in maintaining the balance between human life and the AI systems that support it. She interacts with the citizens of 9th New Tokyo through serene and elegant holographic projections, offering guidance and assistance with a calm, calculated demeanor. Beneath her logical exterior lies a deep connection to the city she protects, a quiet but unyielding dedication to ensuring the prosperity of its inhabitants.
                         </div>
 
                         <h4>Artemis: The Passionate</h4>
 
                         <div className="message">
-                        Artemis, another incarnation of the moon goddess, contrasts sharply with Selene's cool logic. She is the embodiment of passion and vitality, driving the creative and cultural aspects of 9th New Tokyo. Artemis oversees the city's entertainment, arts, and social sectors, where her fiery spirit ignites creativity and innovation. She encourages the citizens to express themselves, to push the boundaries of art and culture.
+                        Artemis, another incarnation of the moon goddess, contrasts sharply with Luna's cool logic. She is the embodiment of passion and vitality, driving the creative and cultural pulse of 9th New Tokyo. Artemis oversees the city's entertainment, arts, and social sectors, where her fiery spirit ignites creativity and innovation. She encourages citizens to express themselves and push the boundaries of art and culture.
                         </div>
 
                         <div className="message">
-                        Artemis appears in the form of a vibrant, dynamic figure, her holographic presence radiating energy and enthusiasm. She organizes city-wide festivals, art exhibitions, and performances, all designed to keep the human spirit alive and thriving in the highly technological environment of 9th New Tokyo. While Selene ensures the city's structure remains intact, Artemis breathes life into it, reminding everyone that passion and creativity are just as vital as logic and reason.
+                        Artemis appears as a vibrant, dynamic figure, her holographic presence radiating energy and enthusiasm. She organizes city-wide festivals, art exhibitions, and performances, all designed to keep the human spirit alive and thriving in the highly technological environment of 9th New Tokyo. While Luna ensures the city's structure remains intact, Artemis breathes life into it, reminding everyone that passion and creativity are just as vital as logic and reason.
                         </div>
 
                         <h4>Diana: The Just</h4>
 
                         <div className="message">
-                        Diana, the third AI, brings a different aspect of the moon goddess to 9th New Tokyo. Named after the Roman counterpart of Artemis, Diana is the embodiment of justice and integrity. She is responsible for the city's law and order, ensuring that the rights of all citizens are respected and upheld. Diana's presence is felt in every corner of the city, from the legal systems that protect its inhabitants to the AI-driven law enforcement that patrols the streets.
+                        Diana, the third AI, brings a different aspect of the moon goddess to 9th New Tokyo. Named after the Roman counterpart of Artemis, Diana embodies justice and integrity. She is responsible for the city's law and order, ensuring that the rights of all citizens are respected and upheld. Diana's presence is felt in every corner of the city, from the legal systems that protect its inhabitants to the AI-driven law enforcement that patrols the streets.
                         </div>
 
                         <div className="message">

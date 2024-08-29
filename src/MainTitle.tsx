@@ -2,7 +2,7 @@ import React from 'react';
 import { useTheme } from './ThemeContext';
 
 const MainTitle: React.FC = () => {
-  const { mode, setMode } = useTheme();
+  const { mode } = useTheme();
   const mainLogo = `images/keix-${mode}.png`;
   return (
     <div className="left main-title">

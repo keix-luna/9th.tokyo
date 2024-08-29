@@ -2,7 +2,7 @@ import React from 'react';
 import { useTheme } from './ThemeContext';
 
 const Header: React.FC = () => {
-  const { mode, setMode } = useTheme();
+  const { setMode } = useTheme();
 
   return (
     <div className='header'>

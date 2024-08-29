@@ -2,7 +2,7 @@ import React from 'react';
 import { useTheme } from './ThemeContext';
 
 const Header: React.FC = () => {
-  const { mode, setMode } = useTheme();
+  const { setMode } = useTheme();
 
   return (
     <div className='header'>
@@ -10,9 +10,7 @@ const Header: React.FC = () => {
         <li className="menu"><a href="/">About 9th.tokyo</a></li>
         <li className="menu"><a href="/architecture">Architecture</a></li>
         <li className="menu"><a href="/specification">Specification</a></li>
-        <li className="menu"><a href="/article">Discussions</a></li>
-        <li className="menu">
-        </li>
+        <li className="menu"><a href="/disscussions">Discussions</a></li>
         <li className="menu">
           <span onClick={() => { setMode('dark') }}>
             <img className="mode" src="images/dark.svg" width="16px" height="16px" alt="dark" />

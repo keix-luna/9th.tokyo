@@ -52,11 +52,7 @@ b { color: var(--emphasis-text); }
 img { /* filter: grayscale(100%); */ }
 li { list-style: none; }
 td { padding: 5px; }
-h1, h2, h3, h4 {
-
-    color: var(--emphasis-text);
-
-}
+h1, h2, h3, h4 { color: var(--emphasis-text); }
 
 .header {
 
@@ -96,12 +92,10 @@ h1, h2, h3, h4 {
 .left { float: left; }
 .right { float: right; }
 
-8main-title {
+.main-title {
 
     height: 700px;
     width: 330px;
-    padding-top: 160px;
-    text-align: center;
     /* border-right: solid 1px var(--border-color); */
 
 }
@@ -202,4 +196,8 @@ p img { transition: all 0.3s; }
 p:hover img {
   transform: scale(1.8);
   background-color: var(--main-bg);
+}
+
+.margin {
+    margin-bottom: 500px;
 }

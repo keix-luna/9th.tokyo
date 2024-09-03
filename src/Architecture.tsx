@@ -4,7 +4,6 @@ import { useTheme } from './ThemeContext';
 const Architecture: React.FC = () => {
 
   const { mode } = useTheme();
-  const designImage = `images/design-${mode}.png`;
 
   return (
 
@@ -25,31 +24,37 @@ Today's architecture diagram is as follows:
       </div>
 
       <div className="contents">
-        <p><img src={designImage} alt="design" width="800" height="355" /></p>
+        <p><img src={`images/design-${mode}.png`} alt="design" width="800" height="355" /></p>
       </div>
 
       <div className="contents">
         <h2>
           <a href="https://github.com/keix-luna/9th.tokyo">#9th.tokyo</a>
         </h2>
-        <div className="message">
+        <div className="left identify-colmun-left">
+          <p>
+            <img className="rounded" alt="city view" src="images/9th.tokyo.1.png" width="225" height="225" />
+          </p>
+        </div>
+
+        <div>
         The architecture of 9th.tokyo is structured as a layered system, where 9th.tokyo serves as the <span className="emphasis">front-end interface</span>, Seven-Swords functions as the intermediary controller, and Akatsuki provides the underlying infrastructure. In this architecture, 9th.tokyo is essentially the user interface (UI) for the Seven-Swords project. While it presents a sophisticated and intuitive interface to users, the actual implementation is a straightforward <span className="emphasis">React-based application</span>.
-        </div>
-
-        <div className="message">
-        Seven-Swords acts as a controller that connects the UI with the powerful backend systems managed by Akatsuki. Despite its central role in the architecture, Seven-Swords itself remains a simple application designed primarily to interface with Milvus and other services through the Akatsuki infrastructure. The elegance of this system lies in its simplicity—while the backend processes are complex and robust, the user interacts with a clean and efficient interface that is easy to use.
-        </div>
-
-        <div className="message">
-        This design ensures that while Akatsuki handles the heavy lifting of data processing and management, 9th.tokyo provides users with a seamless experience, making it the face of the operation. The simplicity of the React-based implementation of Seven-Swords ensures that the system is both maintainable and scalable, allowing for future enhancements without compromising on performance.
-        </div>
-
-        <div className="message">
-          <li><span className="emphasis">[*] A React-based front-end application that you may be viewing right now.</span></li>
-          <li><span className="emphasis">[*] The UI for Seven-Swords.</span></li>
-        </div>
       </div>
 
+      <div className="message">
+        Seven-Swords acts as a controller that connects the UI with the powerful backend systems managed by Akatsuki. Despite its central role in the architecture, Seven-Swords itself remains a simple application designed primarily to interface with Milvus and other services through the Akatsuki infrastructure. The elegance of this system lies in its simplicity—while the backend processes are complex and robust, the user interacts with a clean and efficient interface that is easy to use.
+      </div>
+
+      <div className="message">
+        This design ensures that while Akatsuki handles the heavy lifting of data processing and management, 9th.tokyo provides users with a seamless experience, making it the face of the operation. The simplicity of the React-based implementation of Seven-Swords ensures that the system is both maintainable and scalable, allowing for future enhancements without compromising on performance.
+      </div>
+
+      <div className="message">
+        <li><span className="emphasis">[*] A React-based front-end application that you may be viewing right now.</span></li>
+        <li><span className="emphasis">[*] The UI for Seven-Swords.</span></li>
+      </div>
+    </div>
+      
       <div className="contents">
         <h2>
           <a href="https://github.com/keix-luna/seven-swords">#Seven-Swords</a>
@@ -75,11 +80,17 @@ Today's architecture diagram is as follows:
         <h2>
           <a href="https://github.com/keix-luna/akatsuki">#Akatsuki</a>
         </h2>
-        <div className="message">
+        <div className="left identify-colmun-left">
+          <p>
+            <img className="rounded" alt="city view" src="images/akatsuki.1.png" width="225" height="225" />
+          </p>
+        </div>
+        <div className="ritht">
         This source code forms the core infrastructure for AI identity creation, built using AWS CDK, which serves as the backbone for the 9th.tokyo and Seven-Swords projects. The project is named Akatsuki, also known as MoonLight, and it plays a pivotal role in defining and maintaining the identity of the AI entities that power these initiatives. Akatsuki is not just an ordinary infrastructure project; it is the very foundation upon which the AI's personality, behavior, and interactions are constructed.
         </div>
+        <br />
 
-        <div className="message">
+        <div className="ritht">
         This project includes several advanced <span className="emphasis">Lambda functions</span> designed to bridge the gap between <span className="emphasis">AI systems and Milvus</span>, a high-performance vector database. These Lambda functions are crucial in ensuring that the AI can efficiently process, store, and retrieve vast amounts of data, which is essential for its learning and decision-making processes. By facilitating seamless integration between AI and Milvus, Akatsuki enables the AI to evolve and adapt, thereby continuously refining its identity.
         </div>
 
@@ -93,4 +104,3 @@ Today's architecture diagram is as follows:
   );
 }
 
-export default Architecture;

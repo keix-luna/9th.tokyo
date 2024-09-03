@@ -35,11 +35,7 @@ function Home() {
         </div>
 
         <div className="message">
-        For more detailed information about how AI was utilized to design and build this app, please click on the <a href="/architecture">Architecture</a> or <a href="/specification">Specification</a> sections.
-        </div>
-
-        <div className="message">
-        You are likely viewing the UI of this application. Welcome to 9th.tokyo, where technology and innovation converge in a unique, albeit whimsical, exploration of AI capabilities. Thank you for being a part of this journey.
+        For more detailed information about how AI was utilized to design and build this app, please click on the <a href="/architecture">Architecture</a> or <a href="/specification">Specification</a> sections. You are likely viewing the UI of this application. <span className="emphasis">Welcome to 9th.tokyo</span>, where technology and innovation converge in a unique, albeit whimsical, exploration of AI capabilities. Thank you for being a part of this journey.
         </div>
       </div>
 
@@ -163,7 +159,7 @@ function Home() {
         <h2>Who created this?</h2>
 
         <div className="message">
-        As mentioned earlier, the majority of this application was AI-generated. The architecture, design, and implementation were all produced using AI systems with minimal human intervention. The AI models used for this project were Chat-GPT-4o and Claude-Opus, both of which are state-of-the-art language models capable of generating high-quality text and code. The project was led by Kei Sawamura, who provided guidance and oversight throughout the development process.
+        As mentioned earlier, the majority of this application was AI-generated. The architecture, design, and implementation were all produced using AI systems with minimal human intervention. 
         </div>
 
         <table>
@@ -192,15 +188,17 @@ function Home() {
             <td>Web Design</td><td>Kei Sawamura</td>
           </tr>
           <tr>
-            <td>Graphic Design</td><td>ImageFX</td>
-          </tr>
-          <tr>
-            <td>Music Composition</td><td>MusicFX</td>
+            <td>Graphic Generation</td><td>ImageFX</td>
           </tr>
           <tr>
             <td>Post-Deployment Support</td><td>KEIX Co., Ltd.</td>
           </tr>
         </table>
+
+        <div className="message">
+        The AI models used for this project were Chat-GPT-4o and Claude-Opus, both of which are state-of-the-art language models capable of generating high-quality text and code. The project was led by Kei Sawamura, who provided guidance and oversight throughout the development process.
+        </div>
+
       </div>
     </div>
 

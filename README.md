@@ -4,7 +4,7 @@ An API client for the Seven-Swords that renders JSON in HTML. The inspiration fo
 ## Requirements Difinition
 This is draft of the requirements definition for the 9th.tokyo project. 
 
-https://melted-pullover-b06.notion.site/Project-9th-tokyo-db0087ebf8c14dc384c93217776219d6
+https://zx1.notion.site
 
 ## Get Started
 

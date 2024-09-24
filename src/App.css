@@ -191,7 +191,7 @@ h1, h2, h3, h4 { color: var(--emphasis-text); }
 .identify-colmun-right { width: 560px; }
 .rounded { border-radius: 15px; }
 p { cursor: pointer; }
-p img { transition: all 0.003; }
+p img { transition: all 0.3s; }
 
 p:hover img {
   transform: scale(1.8);

@@ -31,13 +31,8 @@ Today's architecture diagram is as follows:
         <h2>
           <a href="https://github.com/keix-luna/9th.tokyo">#9th.tokyo</a>
         </h2>
-        <div className="left identify-colmun-left">
-          <p>
-            <img className="rounded" alt="city view" src="images/9th.tokyo.1.png" width="225" height="225" />
-          </p>
-        </div>
-
-        <div>
+ 
+      <div>
         The architecture of 9th.tokyo is structured as a layered system, where 9th.tokyo serves as the <span className="emphasis">front-end interface</span>, Seven-Swords functions as the intermediary controller, and Akatsuki provides the underlying infrastructure. In this architecture, 9th.tokyo is essentially the user interface (UI) for the Seven-Swords project. While it presents a sophisticated and intuitive interface to users, the actual implementation is a straightforward <span className="emphasis">React-based application</span>.
       </div>
 
@@ -104,3 +99,4 @@ Today's architecture diagram is as follows:
   );
 }
 
+export default Architecture;

@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       <ul>
         <li className="menu"><a href="/">About 9th.tokyo</a></li>
         <li className="menu"><a href="/architecture">Architecture</a></li>
-        <li className="menu"><a href="/specification">Specification</a></li>
+        <li className="menu"><a href="https://zx1.notion.site/Project-9th-tokyo-db0087ebf8c14dc384c93217776219d6">Requirements definition</a></li>
         <li className="menu"><a href="/disscussions">Discussions</a></li>
         <li className="menu">
           <span onClick={() => { setMode('dark') }}>

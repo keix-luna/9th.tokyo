@@ -75,17 +75,11 @@ Today's architecture diagram is as follows:
         <h2>
           <a href="https://github.com/keix-luna/akatsuki">#Akatsuki</a>
         </h2>
-        <div className="left identify-colmun-left">
-          <p>
-            <img className="rounded" alt="city view" src="images/akatsuki.1.png" width="225" height="225" />
-          </p>
-        </div>
-        <div className="ritht">
+        <div className="message">
         This source code forms the core infrastructure for AI identity creation, built using AWS CDK, which serves as the backbone for the 9th.tokyo and Seven-Swords projects. The project is named Akatsuki, also known as MoonLight, and it plays a pivotal role in defining and maintaining the identity of the AI entities that power these initiatives. Akatsuki is not just an ordinary infrastructure project; it is the very foundation upon which the AI's personality, behavior, and interactions are constructed.
         </div>
-        <br />
 
-        <div className="ritht">
+        <div className="message">
         This project includes several advanced <span className="emphasis">Lambda functions</span> designed to bridge the gap between <span className="emphasis">AI systems and Milvus</span>, a high-performance vector database. These Lambda functions are crucial in ensuring that the AI can efficiently process, store, and retrieve vast amounts of data, which is essential for its learning and decision-making processes. By facilitating seamless integration between AI and Milvus, Akatsuki enables the AI to evolve and adapt, thereby continuously refining its identity.
         </div>
 

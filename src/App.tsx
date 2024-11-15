@@ -5,7 +5,6 @@ import MainTitle   from './MainTitle';
 import Header    from './Header';
 import Home      from './Home';
 import Architecture  from './Architecture';
-import Specification from './Specification';
 import Article     from './Article';
 import Footer    from './Footer';
 import Page404     from './Page404';
@@ -24,7 +23,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/architecture" element={<Architecture />} />
-            <Route path="/specification" element={<Specification />} />
             <Route path="/article" element={<Article />} />
             <Route path="*" element={<Page404 />} />
           </Routes>

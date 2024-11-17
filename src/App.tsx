@@ -6,6 +6,7 @@ import Header    from './Header';
 import Home      from './Home';
 import Architecture  from './Architecture';
 import Article     from './Article';
+import Discussions  from './Discussions';
 import Footer    from './Footer';
 import Page404     from './Page404';
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/architecture" element={<Architecture />} />
             <Route path="/article" element={<Article />} />
+            <Route path="/discussions" element={<Discussions />} />
             <Route path="*" element={<Page404 />} />
           </Routes>
         </Router>

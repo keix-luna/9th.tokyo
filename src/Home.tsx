@@ -27,7 +27,7 @@ function Home() {
         <h2>What is 9th.tokyo?</h2>
 
         <div className="message">
-        9th.tokyo is an experimental app developed by <span className="emphasis">Kei Sawamura</span>, with most of the design created by AI systems. While the app features a robust and forward-thinking architecture powered by cutting-edge technology, it is not intended for practical use. Instead, 9th.tokyo serves as a parody or homage to the portrayal of highly advanced, emotion-bearing <span className="emphasis">AI systems</span> often depicted in popular anime.
+        9th.tokyo is an experimental app developed by <a href="https://keix.github.io" >Kei Sawamura</a>, with most of the design <span className="emphasis">created by AI systems</span>. While the app features a robust and forward-thinking architecture powered by cutting-edge technology, it is not intended for practical use. Instead, 9th.tokyo serves as a parody or homage to the portrayal of highly advanced, emotion-bearing AI systems often depicted in popular anime.
         </div>
 
         <div className="message">
@@ -65,7 +65,7 @@ function Home() {
         <h2>The story</h2>
 
         <div className="message">
-        In the year 2199, the world has changed dramatically. The remnants of past conflicts and natural disasters have given rise to a new era of technological marvels. At the heart of this transformation lies 9th New Tokyo, a floating city in the sky, a beacon of hope and progress. This colossal megapolis is not only a testament to human ingenuity but also the cradle of advanced artificial intelligence, where three AI entities—Selene, Artemis, and Diana—each embodying different aspects of the moon goddess archetype, play pivotal roles in the city's destiny.
+        In the year 2199, the world has changed dramatically. The remnants of past conflicts and natural disasters have given rise to a new era of technological marvels. At the heart of this transformation lies 9th New Tokyo, a floating city in the sky, a beacon of hope and progress. This colossal megapolis is not only a testament to human ingenuity but also the cradle of advanced artificial intelligence, where three AI entities Luna, Artemis, and Diana each embodying different aspects of the moon goddess archetype, play pivotal roles in the city's destiny.
         </div>
 
         <div className="message">

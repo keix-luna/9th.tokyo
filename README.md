@@ -1,5 +1,5 @@
 # 9th.tokyo
-An API client for the Seven-Swords that renders JSON in HTML. The inspiration for the name of this application came from the 3rd New Tokyo City in Evangelion.
+An API client for the Seven-Swords that renders JSON in HTML. The inspiration for the name of this application came from the 3rd New Tokyo City in Evangelion. In essence, this is almost HTML, bridging the gap between structured data and visual representation.
 
 ## Requirements Difinition
 This is draft of the requirements definition for the 9th.tokyo project. 

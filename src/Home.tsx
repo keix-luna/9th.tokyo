@@ -27,7 +27,7 @@ function Home() {
         <h2>What is 9th.tokyo?</h2>
 
         <div className="message">
-        9th.tokyo is an experimental app developed by <span className="emphasis">Kei Sawamura</span>, with most of its design and implementation <span className="emphasis">created by AI systems</span>. While the app features a robust and forward-thinking architecture powered by cutting-edge technology, it is not intended to serve any practical purpose. Instead, 9th.tokyo functions as a parody or homage to the portrayal of highly advanced, emotion-bearing AI systems often seen in popular anime.
+        9th.tokyo is an experimental app developed by <span className="emphasis">Kei Sawamura</span>, with most of the design created by AI systems. While the app features a robust and forward-thinking architecture powered by cutting-edge technology, it is not intended for practical use. Instead, 9th.tokyo serves as a parody or homage to the portrayal of highly advanced, emotion-bearing <span className="emphasis">AI systems</span> often depicted in popular anime.
         </div>
 
         <div className="message">
